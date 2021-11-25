@@ -329,12 +329,12 @@ pacman -S openssh --noconfirm
 pacman -S openssl --noconfirm
 pacman -S openvpn  --noconfirm
 pacman -S wget --noconfirm
-pacman -S firefox
+pacman -S firefox --noconfirm
 pacman -S qbittorrent --noconfirm
 pacman -S tor --noconfirm
 pacman -S torbrowser-launcher --noconfirm
 pacman -S apache --noconfirm
-pacman -S youtube-dl
+pacman -S youtube-dl --noconfirm
 pacman -S telegram-desktop --noconfirm
 
 #Multimedia
@@ -380,8 +380,8 @@ pacman -S vnstat --noconfirm
 pacman -S wireshark-qt --noconfirm
 pacman -S lynis --noconfirm
 pacman -S xscreensaver --noconfirm
-pacman -S qtpass
-pacman -S gnupg
+pacman -S qtpass --noconfirm
+pacman -S gnupg --noconfirm
 
 #Science
 
