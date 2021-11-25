@@ -14,8 +14,8 @@ yay -S postman-bin
 #Internet
 yay -S brave-bin
 yay -S google-chrome
-drive-bin
-zoom
+yay -S zoom
 
+yay -S drive-bin
 #Security
 yay -S ntop
