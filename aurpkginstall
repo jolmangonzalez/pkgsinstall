@@ -2,8 +2,6 @@
 
 yay -S appimagelauncher
 yay -S visual-studio-code-bin 
-yay -S brave-bin
-yay -S google-chrome
 yay -S mongodb-compass
 yay -S mongodb-bin
 yay -S mongodb-tools-bin
@@ -12,3 +10,12 @@ yay -S pamac-tray-appindicator
 yay -S php-mcrypt
 yay -S pivx-qt
 yay -S postman-bin
+
+#Internet
+yay -S brave-bin
+yay -S google-chrome
+drive-bin
+zoom
+
+#Security
+yay -S ntop

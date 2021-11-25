@@ -6,9 +6,7 @@ pacman -S alacritty --noconfirm
 pacman -S ark --noconfirm
 pacman -S base-devel --noconfirm
 pacman -S cmake --noconfirm
-pacman -S dmenu --noconfirm
 pacman -S figlet --noconfirm
-pacman -S filelight --noconfirm
 pacman -S flameshot --noconfirm
 pacman -S fzf --noconfirm
 pacman -S gnome-boxes --noconfirm
@@ -18,10 +16,7 @@ pacman -S gparted --noconfirm
 pacman -S gtk2 --noconfirm
 pacman -S gtk3 --noconfirm
 pacman -S gtk4 --noconfirm
-pacman -S gufw --noconfirm
 pacman -S htop --noconfirm
-pacman -S iwd --noconfirm
-pacman -S kcalc --noconfirm
 pacman -S lightdm --noconfirm
 pacman -S lightdm-gtk-greeter --noconfirm
 pacman -S lightdm-gtk-greeter-settings --noconfirm
@@ -30,21 +25,8 @@ pacman -S lightdm-webkit-theme-litarvan --noconfirm
 pacman -S lxappearance --noconfirm
 pacman -S lxrandr --noconfirm
 pacman -S neofetch --noconfirm
-pacman -S netctl --noconfirm
-pacman -S networkmanager --noconfirm
-pacman -S networkmanager-openconnect  --noconfirm
-pacman -S networkmanager-openvpn  --noconfirm
-pacman -S networkmanager-pptp   --noconfirm
-pacman -S networkmanager-vpnc --noconfirm
-pacman -S network-manager-applet --noconfirm
-pacman -S nmap --noconfirm
 pacman -S numlockx --noconfirm
-pacman -S openconnect --noconfirm
-pacman -S openssh --noconfirm
-pacman -S openssl --noconfirm
-pacman -S openvpn  --noconfirm
 pacman -S pavucontrol --noconfirm
-pacman -S pcmanfm --noconfirm
 pacman -S picom --noconfirm
 pacman -S polkit  --noconfirm
 pacman -S polkit-qt5 --noconfirm
@@ -52,11 +34,7 @@ pacman -S pulseaudio --noconfirm
 pacman -S qemu --noconfirm
 pacman -S qtile --noconfirm
 pacman -S qt5 --noconfirm
-pacman -S rofi --noconfirm
-pacman -S sshguard --noconfirm
 pacman -S unarchiver --noconfirm
-pacman -S wget --noconfirm
-pacman -S xarchiver  --noconfirm
 pacman -S xorg-apps --noconfirm
 pacman -S xorg-server --noconfirm
 pacman -S zsh --noconfirm
@@ -139,7 +117,6 @@ pacman -S lzip  --noconfirm
 pacman -S lzop  --noconfirm
 pacman -S mesa --noconfirm
 pacman -S mesa-demos --noconfirm
-pacman -S mpg123 --noconfirm
 pacman -S msmtp --noconfirm
 pacman -S mtools --noconfirm
 pacman -S nilfs-utils --noconfirm
@@ -148,7 +125,6 @@ pacman -S ocl-icd --noconfirm
 pacman -S opencl-headers --noconfirm
 pacman -S openjpeg  --noconfirm
 pacman -S openjpeg2 --noconfirm
-pacman -S p7zip --noconfirm
 pacman -S pamixer  --noconfirm
 pacman -S pavucontrol --noconfirm
 pacman -S pulseaudio  --noconfirm
@@ -181,28 +157,6 @@ pacman -S xz --noconfirm
 pacman -S zip --noconfirm
 pacman -S zstd  --noconfirm
 
-exit
-
-#Multimedia
-pacman -S audacious --noconfirm
-pacman -S audacious-plugins --noconfirm
-pacman -S feh --noconfirm
-pacman -S gimp --noconfirm
-pacman -S gwenview --noconfirm
-pacman -S inkscape --noconfirm
-pacman -S kcolorchooser --noconfirm
-pacman -S vlc --noconfirm
-#Browser
-
-pacman -S firefox
-
-pacman -S qbittorrent --noconfirm
-pacman -S tor --noconfirm
-pacman -S torbrowser-launcher --noconfirm
-
-#Social
-pacman -S telegram-desktop --noconfirm
-
 #Themes, fonts and icons
 pacman -S arc-gtk-theme --noconfirm
 pacman -S deepin-icon-theme --noconfirm
@@ -219,14 +173,8 @@ pacman -S zsh-autosuggestions --noconfirm
 pacman -S zsh-syntax-highlighting --noconfirm
 pacman -S zsh-theme-powerlevel10k --noconfirm
 
-#Office
-
-pacman -S kate --noconfirm
-pacman -S libreoffice-still-es --noconfirm
-pacman -S okular --noconfirm
-
 #Devs
-pacman -S apache --noconfirm
+
 pacman -S db4.8 --noconfirm
 pacman -S git --noconfirm
 pacman -S go --noconfirm
@@ -364,3 +312,83 @@ pacman -S tk --noconfirm
 pacman -S yarn --noconfirm
 
 exit
+
+
+#Internet
+pacman -S gufw --noconfirm
+pacman -S iwd --noconfirm
+pacman -S netctl --noconfirm
+pacman -S networkmanager --noconfirm
+pacman -S networkmanager-openconnect  --noconfirm
+pacman -S networkmanager-openvpn  --noconfirm
+pacman -S networkmanager-pptp   --noconfirm
+pacman -S networkmanager-vpnc --noconfirm
+pacman -S network-manager-applet --noconfirm
+pacman -S openconnect --noconfirm
+pacman -S openssh --noconfirm
+pacman -S openssl --noconfirm
+pacman -S openvpn  --noconfirm
+pacman -S wget --noconfirm
+pacman -S firefox
+pacman -S qbittorrent --noconfirm
+pacman -S tor --noconfirm
+pacman -S torbrowser-launcher --noconfirm
+pacman -S apache --noconfirm
+pacman -S youtube-dl
+pacman -S telegram-desktop --noconfirm
+
+#Multimedia
+
+pacman -S feh --noconfirm
+pacman -S gwenview --noconfirm
+pacman -S gimp --noconfirm
+pacman -S imagemagick --noconfirm
+pacman -S inkscape --noconfirm
+pacman -S simplescreenrecorder --noconfirm
+pacman -S mpg123 --noconfirm
+pacman -S vlc --noconfirm
+pacman -S audacious --noconfirm
+pacman -S audacious-plugins --noconfirm
+pacman -S calibre --noconfirm
+pacman -S kcolorchooser --noconfirm
+
+#Utilities
+pacman -S pkgfile --noconfirm
+pacman -S srcpac --noconfirm
+pacman -S filelight --noconfirm
+pacman -S parcellite --noconfirm
+pacman -S p7zip --noconfirm
+pacman -S xarchiver  --noconfirm
+pacman -S ranger --noconfirm
+pacman -S pcmanfm --noconfirm
+pacman -S meld --noconfirm
+pacman -S gprename --noconfirm
+
+#Documentos
+
+pacman -S okular --noconfirm
+pacman -S libreoffice-still-es --noconfirm
+pacman -S discount --noconfirm
+pacman -S kate --noconfirm
+
+
+#Security
+
+pacman -S nmap --noconfirm
+pacman -S sshguard --noconfirm
+pacman -S vnstat --noconfirm
+pacman -S wireshark-qt --noconfirm
+pacman -S lynis --noconfirm
+pacman -S xscreensaver --noconfirm
+pacman -S qtpass
+pacman -S gnupg
+
+#Science
+
+pacman -S kcalc --noconfirm
+
+#Other
+
+pacman -S dmenu --noconfirm
+pacman -S rofi --noconfirm
+pacman -S gnucash --noconfirm
