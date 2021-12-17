@@ -311,9 +311,6 @@ pacman -S sqlitebrowser --noconfirm
 pacman -S tk --noconfirm
 pacman -S yarn --noconfirm
 
-exit
-
-
 #Internet
 pacman -S gufw --noconfirm
 pacman -S iwd --noconfirm
